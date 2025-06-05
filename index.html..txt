@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SL – l’essence de SL</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #001f4d; /* тъмносиньо */
+            color: white;
+        }
+        header {
+            background-color: #003366;
+            padding: 20px;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #00264d;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #003366;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+        }
+        /* Двуезично оформление */
+        .bg-text {
+            margin-bottom: 20px;
+        }
+        .en-text {
+            font-style: italic;
+            color: #a0c4ff;
+        }
+    </style>
+</head>
+<body>
+    <header>SL – l’essence de SL</header>
+    <nav>
+        <a href="#about">За SL</a>
+        <a href="#products">Продукти</a>
+        <a href="#contact">Контакти</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>За SL</h2>
+            <p class="bg-text">
+                SL е онлайн бранд, създаден с любов към изкуството и креативността. Нашата мисия е да предлагаме уникални дизайнерски продукти като списания, колажи, визитки, тениски, калъфи за телефон, стикери и подаръци в рамка, които вдъхновяват и радват клиентите ни.
+            </p>
+            <p class="en-text">
+                SL is an online brand created with a love for art and creativity. Our mission is to offer unique design products such as magazines, collages, business cards, t-shirts, phone cases, stickers, and framed gifts that inspire and delight our customers.
+            </p>
+        </section>
+        <section id="products">
+            <h2>Продукти</h2>
+            <p class="bg-text">
+                В нашия магазин ще откриете разнообразие от ръчно изработени и дигитални продукти, които могат да бъдат персонализирани според вашите желания и нужди.
+            </p>
+            <p class="en-text">
+                In our store, you will find a variety of handmade and digital products that can be customized according to your wishes and needs.
+            </p>
+        </section>
+        <section id="contact">
+            <h2>Контакти</h2>
+            <p class="bg-text">
+                Можете да се свържете с нас на имейл: <a href="mailto:contact@sl-essence.com" style="color:#a0c4ff;">contact@sl-essence.com</a><br />
+                Следвайте ни в социалните мрежи за новини и специални оферти.
+            </p>
+            <p class="en-text">
+                You can contact us at email: <a href="mailto:contact@sl-essence.com" style="color:#a0c4ff;">contact@sl-essence.com</a><br />
+                Follow us on social media for news and special offers.
+            </p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 SL – l’essence de SL. Всички права запазени.
+    </footer>
+</body>
+</html>
